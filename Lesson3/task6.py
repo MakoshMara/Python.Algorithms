@@ -19,7 +19,6 @@ print(max_, min_)
 imax = array.index(max_)
 imin = array.index(min_)
 n = abs(imax - imin) - 1
-print(n)
 res = 0
 while n > 0:
     if imax > imin:
